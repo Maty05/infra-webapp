@@ -12,7 +12,7 @@ RUN pip install --no-cache-dir Flask==2.0.1 Werkzeug==2.2.2
 COPY . /app
 
 # Expone el puerto 5000
-EXPOSE 5000
+EXPOSE 6000
 
 # Ejecuta server.py cuando se inicia el contenedor
 CMD ["python", "server.py"]
