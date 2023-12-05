@@ -6,7 +6,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello_world():
-    return 'Cambio el codigo'
+    return 'Codigo nuevo'
 
 @app.route('/romper')
 def romper():
